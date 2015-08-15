@@ -2,6 +2,7 @@
 
 ##Uses libraries:
 dplyr
+
 reshape2
 
 ##Method follows:
@@ -13,10 +14,15 @@ Desired variables are extracted using dplyr.
 
 ###3. Replace activity values with descriptive values, as follows:
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 ###4. Ensure descriptive column names.

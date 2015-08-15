@@ -1,50 +1,75 @@
 # Code Book for getdata-031 Course Project
 ##Variables
 The following universal abbreviations persist through variable names where applicable:
+
 t = time
+
 f = frequency
+
 Acc = Accelerometer 
+
 Gyro = Gyroscope
+
 Mag = Magnitude
+
 
 (Body and Gravity indicate the motion components of the sensor signals.)
 
 ###From time domain signals:
 ####From accelerometer sensor:
 tBodyAcc-XYZ
+
 tGravityAcc-XYZ
+
 tBodyAccJerk-XYZ
+
 tBodyAccMag
+
 tGravityAccMag
+
 tBodyAccJerkMag
+
 
 ####From gyroscope sensor:
 tBodyGyro-XYZ
+
 tBodyGyroJerk-XYZ
+
 tBodyGyroMag
+
 tBodyGyroJerkMag
+
 
 ###From frequency domain signals:
 ####From accelerometer sensor:
 fBodyAcc-XYZ
+
 fBodyAccJerk-XYZ
+
 fBodyAccMag
+
 fBodyAccJerkMag
+
 
 ####From gyroscope sensor:
 fBodyGyro-XYZ
+
 fBodyGyroMag
+
 fBodyGyroJerkMag
+
 
 ###From averaging signals in a signal window sample:
 gravityMean
 
 ####From accelerometer sensor:
 tBodyAccMean
+
 tBodyAccJerkMean
 
 ####From gyroscope sensor:
 tBodyGyroMean
+
 tBodyGyroJerkMean
 
 ##Data
