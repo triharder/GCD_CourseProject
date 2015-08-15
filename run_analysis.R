@@ -45,4 +45,4 @@ names(gcd_extract) <- gsub("BodyBody", "Body", names(gcd_extract))
 melt_extract <- melt(gcd_extract, id = c("Subject", "Activity"))
 gcd_tidy <- dcast(melt_extract, Subject + Activity ~ variable, mean)
 
-write.table(gcd_tidy,file = "tidy.txt")
+write.table(gcd_tidy,file = "tidy.txt", row.name=F)
